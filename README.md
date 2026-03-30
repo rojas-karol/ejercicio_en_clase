@@ -117,7 +117,7 @@ void loop()
 ### Objetivo
 Convertir un número binario de 4 bits (0000 a 1111) a su equivalente hexadecimal (0 a F), mostrando el resultado en un display de 7 segmentos controlado por Arduino.
 
-### 🧰 Materiales
+### Materiales
 
 | Componente | Cantidad |
 |---|---|
@@ -156,7 +156,7 @@ Convertir un número binario de 4 bits (0000 a 1111) a su equivalente hexadecima
 5. Verificar que el orden de los switches corresponda a los bits del 0 (menos significativo) al 3 (más significativo).
 6. Cargar el código y simular. Probar con todas las combinaciones de 0000 a 1111.
 
-### 💻 Código
+### Código
 
 ```cpp
 int bit0 = 2;
@@ -233,7 +233,7 @@ void loop() {
 | 1 | 1 | 0 | 0 | 12 | C |
 | 1 | 1 | 1 | 1 | 15 | F |
 
-### 🔗 Enlace Tinkercad
+### Enlace Tinkercad
 
 > _https://www.tinkercad.com/things/b4Ew9Ej4Tqf-conversor-de-binario-a-hexadecimal?sharecode=uJp8zckOjm61lZXayt4kRIqT1eKJvU7P0CfCkzwV2dI_
 
