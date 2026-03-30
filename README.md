@@ -28,9 +28,9 @@ Simular el comportamiento de las compuertas lógicas AND, OR y NOT usando un Ard
 |---|---|
 | Pulsador A | 2 |
 | Pulsador B | 3 |
-| LED rojo (OR) | 5 |
-| LED verde (AND) | 6 |
-| LED amarillo (NOT A) | 7 |
+| LED rojo (OR) | 9 |
+| LED verde (AND) | 10 |
+| LED amarillo (NOT A) | 11 |
 
 ### Montaje paso a paso
 
@@ -39,9 +39,9 @@ Simular el comportamiento de las compuertas lógicas AND, OR y NOT usando un Ard
 3. Agregar una resistencia de **10kΩ** entre la pata de señal de cada pulsador y **GND** (configuración pull-down). Esto asegura que la lectura sea LOW cuando el botón no está presionado.
 4. Colocar los tres LEDs en la protoboard, cada uno con su resistencia de **220Ω** en serie, conectando el cátodo (pata corta) al riel de GND.
 5. Conectar el ánodo de cada LED a su pin de Arduino correspondiente:
-   - LED rojo → pin 5
-   - LED verde → pin 6
-   - LED amarillo → pin 7
+   - LED rojo → pin 9
+   - LED verde → pin 19
+   - LED amarillo → pin 11
 6. Cargar el código en el editor de Tinkercad y ejecutar la simulación.
 
 ### Código
